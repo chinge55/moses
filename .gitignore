@@ -4,4 +4,5 @@
 build/
 dist/
 moses.egg-info/
+checkpoints/*
 

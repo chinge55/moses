@@ -1,0 +1,84 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/sangam/anaconda3/envs/customMoses
+
+  added / updated specs:
+    - matplotlib=3.0.1
+    - numpy=1.16.0
+    - pandas=0.25
+    - scikit-learn=0.20.3
+    - scipy=1.2.0
+    - tqdm
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    matplotlib-3.0.1           |   py37h5429711_0         4.9 MB
+    mkl_fft-1.2.0              |   py37h23d657b_0         148 KB
+    numpy-1.16.0               |   py37h7e9f1db_1          48 KB
+    numpy-base-1.16.0          |   py37hde5b4d6_1         3.5 MB
+    pandas-0.25.3              |   py37he6710b0_0         8.8 MB
+    pyparsing-3.0.9            |   py37h06a4308_0         150 KB
+    pyqt-5.9.2                 |   py37h05f1152_2         4.5 MB
+    qt-5.9.7                   |       h5867ecd_1        68.5 MB
+    scikit-learn-0.20.3        |   py37hd81dba3_0         4.5 MB
+    scipy-1.2.0                |   py37h7c811a0_0        13.7 MB
+    sip-4.19.8                 |   py37hf484d3e_0         274 KB
+    ------------------------------------------------------------
+                                           Total:       109.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  cycler             pkgs/main/noarch::cycler-0.11.0-pyhd3eb1b0_0 
+  dbus               pkgs/main/linux-64::dbus-1.13.18-hb2f20db_0 
+  expat              pkgs/main/linux-64::expat-2.4.9-h6a678d5_0 
+  flit-core          pkgs/main/noarch::flit-core-3.6.0-pyhd3eb1b0_0 
+  fontconfig         pkgs/main/linux-64::fontconfig-2.14.1-h52c9d5c_1 
+  freetype           pkgs/main/linux-64::freetype-2.12.1-h4a9f257_0 
+  glib               pkgs/main/linux-64::glib-2.69.1-he621ea3_2 
+  gst-plugins-base   pkgs/main/linux-64::gst-plugins-base-1.14.1-h6a678d5_1 
+  gstreamer          pkgs/main/linux-64::gstreamer-1.14.1-h5eee18b_1 
+  icu                pkgs/main/linux-64::icu-58.2-he6710b0_3 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.0.0-h9e868ea_25371 
+  jpeg               pkgs/main/linux-64::jpeg-9e-h5eee18b_1 
+  kiwisolver         pkgs/main/linux-64::kiwisolver-1.4.4-py37h6a678d5_0 
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-7.5.0-ha8ba4b0_17 
+  libgfortran4       pkgs/main/linux-64::libgfortran4-7.5.0-ha8ba4b0_17 
+  libpng             pkgs/main/linux-64::libpng-1.6.39-h5eee18b_0 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  libxcb             pkgs/main/linux-64::libxcb-1.15-h7f8727e_0 
+  libxml2            pkgs/main/linux-64::libxml2-2.9.14-h74e7548_0 
+  matplotlib         pkgs/main/linux-64::matplotlib-3.0.1-py37h5429711_0 
+  mkl                pkgs/main/linux-64::mkl-2020.2-256 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.3.0-py37he8ac12f_0 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.2.0-py37h23d657b_0 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.1.1-py37h0573a6f_0 
+  numpy              pkgs/main/linux-64::numpy-1.16.0-py37h7e9f1db_1 
+  numpy-base         pkgs/main/linux-64::numpy-base-1.16.0-py37hde5b4d6_1 
+  pandas             pkgs/main/linux-64::pandas-0.25.3-py37he6710b0_0 
+  pcre               pkgs/main/linux-64::pcre-8.45-h295c915_0 
+  pyparsing          pkgs/main/linux-64::pyparsing-3.0.9-py37h06a4308_0 
+  pyqt               pkgs/main/linux-64::pyqt-5.9.2-py37h05f1152_2 
+  python-dateutil    pkgs/main/noarch::python-dateutil-2.8.2-pyhd3eb1b0_0 
+  pytz               pkgs/main/linux-64::pytz-2022.7-py37h06a4308_0 
+  qt                 pkgs/main/linux-64::qt-5.9.7-h5867ecd_1 
+  scikit-learn       pkgs/main/linux-64::scikit-learn-0.20.3-py37hd81dba3_0 
+  scipy              pkgs/main/linux-64::scipy-1.2.0-py37h7c811a0_0 
+  sip                pkgs/main/linux-64::sip-4.19.8-py37hf484d3e_0 
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1 
+  tornado            pkgs/main/linux-64::tornado-6.2-py37h5eee18b_0 
+  tqdm               pkgs/main/linux-64::tqdm-4.64.1-py37h06a4308_0 
+  typing_extensions  pkgs/main/linux-64::typing_extensions-4.4.0-py37h06a4308_0 
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
