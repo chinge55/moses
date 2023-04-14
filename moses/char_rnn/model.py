@@ -28,7 +28,7 @@ class CharRNN(nn.Module):
 
     def forward(self, x, lengths, hiddens=None):
         x = self.embedding_layer(x)
-        x = rnn_utils.pack_padded_sequence(x, lengths, batch_first=True)
+        x = rnn_utils.pack_padded_sequence(x, lengths.cpu(), batch_first=True)
         x, hiddens = self.lstm_layer(x, hiddens)
         x, _ = rnn_utils.pad_packed_sequence(x, batch_first=True)
         x = self.linear_layer(x)
